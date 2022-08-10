@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtSource.Text" xml:space="preserve">
+    <value>Dialogue/對話
+A: When we wake up each morning, we often start our day without much conscious thought about how we
+are feeling and what our intentions are for the day.
+A: 我們每天早上醒來,通常就匆忙開始了一天,不會有意識地去思考自己的情緒和這一天的意圖。
+
+A: What if, instead, we took a few minutes to consciously think about the day ahead of us?
+A: 但是,如果我們花幾分鐘有意識地思考,即將開始的一天,會怎樣呢?
+
+A: Start the day by being appreciative and grateful for what the world has to offer and what we have in our
+own lives.
+A: 用珍惜、感恩的態度開啟新的一天。感恩這個世界所給予我們的、和我們自己生活中擁有的一切。
+
+A: Often, there are things in life, which are not the way we want them to be. And that could create challenges
+and frustrations.
+A: 生活中常會遇到不如意的事,這會給我們創造挑戰和困難。
+
+A: But a small change in perception and approach could lead to a positive change in how we see and deal
+with challenges in the future.
+A: 但是,看法和做法上的小小改變,就能帶來看待、面對挑戰的積極變化。
+
+A: Morning is a wonderful time to create a new approach on how we see the world.
+A: 早晨是創造這種新做法的絕佳時機。
+
+A: It's like New Year's Day each morning: the ability to think anew.
+A: 就好像每天早上都是新年的第一天一樣:讓我們用新的方式思考。
+
+A: So start every day with positive and grateful thoughts.
+A: 所以,用積極、感恩的思維開啟新的每一天吧。
+
+Key vocabulary/重點詞彙
+conscious /ˈkɑnʃəs/ 意識到、有意識的
+intentions /ɪnˈtɛnʧənz/ 意圖
+appreciative /əˈpriʃiˌeɪtɪv/ 感恩的、珍惜的
+grateful /ˈgreɪtfəl/ 感激的
+frustrations /frəˈstreɪʃənz/ 挫折、挫敗感
+perception /pərˈsɛpʃən/ 看法、觀念
+approach /əˈproʊʧ/ 處理方法
+anew /əˈnu/ 重新
+positive /ˈpɑzətɪv/ 積極的
+
+Supplementary vocabulary/補充詞彙
+the daily grind /ðə ˈdeɪli graɪnd/ 日常瑣碎、忙碌的工作
+chicken soup for the soul /ˈʧɪkən sup fɔr ðə soʊl/ 心靈雞湯
+on purpose /ɑn ˈpɝː.pəs/ 故意的、有意的
+unconscious /ˌʌnˈkɑnʃəs/ 失去知覺的,無意識的
+subconscious /səbˈkɑnʃəs/ 下意識的; 潛意識的
+overcome /ˈoʊvərˌkʌm/ 克服
+annoyed /əˈnɔɪd/ 惱怒的,氣惱的
+hungover /hʌŋˈoʊvər/ 宿醉的
+turn over a new leaf /tɜrn ˈoʊvər ə nu lif/ 掀開新的一頁,重新開始
+
+3540075613001560
+
+depressing /dɪˈprɛsɪŋ/ 令人沮喪的
+humbling /ˈhʌmbəlɪŋ/ 令人謙卑的、令人慚愧的
+psychology /saɪˈkɑləʤi/ 心理學
+positive psychology /ˈpɑzətɪv saɪˈkɑləʤi/ 正向心理學、積極心理學
+
+Expansion/例句
+conscious
+1. We ought to be more conscious in our efforts to conserve energy and resources.
+我們應該更加注意節約能源資源。
+
+2. Thank God we don't need to consciously think about breathing all the time.
+謝天謝地我們不需要時刻考慮呼吸。
+
+3. My husband's the more money-conscious one between the two of us.
+我丈夫比我有金錢意識。
+
+appreciative
+1. I really appreciate that you came into work today.
+很感謝你今天過來上班。
+
+2. Even though it's human nature to take things for granted, we need to be more appreciative of all that we
+have.
+雖然人的天性很容易認為一切理所當然,但我們要更懂得感恩擁有的一切。
+
+3. Let's show our appreciation with a warm round of applause!
+讓我們用熱烈的掌聲來表達我們的感謝!
+
+grateful
+1. I'm grateful for your help during this difficult period of time in my life.
+我很感激你在我人生這段艱難時期給我的幫助。
+
+2. I'm appreciative of what I have. I'm grateful for everything in life.
+我很珍惜自己所擁有的,我對生活充滿感恩。
+
+3. I never would have thought he was such an ungrateful person.
+我沒想到他是個那麼忘恩負義的人。
+
+perception
+1. My perception of him changed when I saw him hold the door open for everyone behind him.
+當我看到他給後面的人開門後,我對他的看法改變了。
+
+2. Females perceive friendships with males as platonic more often than males do.
+相較於男性,女性對於異性友誼的認知更柏拉圖。
+
+3. Just a little bit of newfound knowledge can completely change our perception of life.
+一點點新知識就能完全改變我們的生活觀念。
+
+approach
+1. Our marketing strategy has become stale, so we need to find a more innovative approach to reach
+consumers.
+我們的市場策略過於陳舊,我們需要找到更新穎的方法來接近消費者。
+
+2. Why don't we approach this problem from a different angle?
+我們為什麼不從別的角度來處理這個問題?
+
+3. He approached her nervously, afraid that she'd reject him.
+他小心翼翼地接近她,擔心會被拒絕。
+
+Grammar/語法
+Two meanings of positive
+Today's lesson is about starting your day with a positive mind. The word "positive" was used throughout the
+lesson, to mean "good" and "optimistic."
+今天課程的主題是用積極的心態開啟新的一天。“Positive”一詞貫穿整課,意思就是“好的”、“積極、樂觀的”。
+
+However, the word has another meaning. It contains the Latin root, "posit," which means "placed," so it
+originally referred to laws as being "laid down" firmly without question, leading to the eventual meaning of
+"very sure." So, if someone asks you, "Are you sure?", you can reply, "Positive."
+
+3540075613001560
+
+Take a look at the following sample sentences and learn the different uses of this word.
+
+但是,"positive"這個詞還有另一個意思。它的詞根是“posit”,意思是“安置”。原來使用於法律中,意思是毫無疑
+義。但後來延伸成為“非常確定”的意思。如果別人問你“你確定嗎”,你就可以回答“positive"。
+大家看看下面的例句,學習這個詞的雙重含義吧!
+
+1. Are you positive you wired the landlord the security deposit last week?
+你確定上周把押金轉給房東了嗎?
+
+2. He has such a positive outlook on life that everyone likes hanging out with him.
+他人生觀特別積極,大家都愛跟他待在一起。
+
+3. I was positive I didn't get the job, but two days later I received an offer!
+我當時很確定自己得不到這份工作,誰知道兩天后我卻收到了聘用通知書。
+
+4. After our client gave us positive feedback, we began building the prototype.
+在收到客戶積極回饋之後,我們就開始做產品原型了。
+</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timerAddWord.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>164, 17</value>
+  </metadata>
+  <metadata name="timerMoveWords.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>303, 17</value>
+  </metadata>
+  <metadata name="timerRemove.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>457, 17</value>
+  </metadata>
+</root>
